@@ -1,0 +1,60 @@
+b body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    .top-header {
+      background-color: white;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+    }
+
+    .top-header a.logo {
+      color: #04AA6D;
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 14px 20px;
+    }
+
+    .top-header a {
+      color: black;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: inline-block;
+    }
+
+    .top-header a:hover {
+      background-color: #04AA6D;
+            color: white;
+    }
+        /* Right Section */
+    .top-header .right {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .top-header .search-box input[type="text"] {
+      padding: 6px 10px;
+      margin: 8px;
+      border:none;
+      border-radius: 4px;
+    }
+
+    .top-header .button {
+      background-color: #04AA6D;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 14px;
+      margin: 8px 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+
+
+
