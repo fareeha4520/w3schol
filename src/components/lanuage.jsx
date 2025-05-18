@@ -1,6 +1,6 @@
 import React from 'react'
 
-const lanuage = () => {
+const Lanuage = () => {
   return (
           <div class="navbar">
         <a href="#html">HTML</a>
@@ -21,5 +21,5 @@ const lanuage = () => {
       )
     }
     
-    export default lanuage;
+    export default Lanuage;
   

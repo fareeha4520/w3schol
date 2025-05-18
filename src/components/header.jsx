@@ -9,17 +9,17 @@ const Header = () => {
   <a href="#exercises">Exercises</a>
   <a href="#certificates">Certificates</a>
   <a href="#services">Services</a>
-      <a href="#">Spaces</a>
-  <a href="#">For Teachers</a>
-  <a href="#services">Get Certified</a>
-   </div>
 
   <div className="right">
     <div class="search-box">
       <input type="text" placeholder="Search..."/>
+     < a href="#exercises">Spaces</a>
+  <a href="#certificates">For teachers</a>
+  <a href="#services">Get certified</a>
+      
     </div>
     <button className="button">Log in</button>
-    <button className="button">Sign Up</button>
+    <button className="button">Sign Up</button></div>
   </div>
   </>
   );
