@@ -2,6 +2,9 @@
     max-width: 100%;
     margin: 0 ;
     background-color: #b4e3c6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .html{
     padding: 40px 20px;
@@ -24,61 +27,84 @@
 }
 .button-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     flex-wrap: wrap;
     margin-bottom: 20px;
     flex-direction: column;
-    width: 30%;
-    justify-content: center;
-
-   
+    /* just removed the 30% width that fix the issue. */
 }
 .button-kit{
-  display: inline-flex;
+    display: inline-flex;
     padding: 12px 24px;
-    background-color: #04AA6D;
+    width: 120px;
     color: white;
     text-decoration: none;
     border-radius: 20px;
     font-weight: 600;
     text-align: center;
     justify-content: center;
-    align-items: center;}
-    
-
-.button-kit-yellow{
-    background-color: rgb(205, 205, 106);
-    display: inline-block;
-    padding: 12px 24px;
-    color: white;
-    text-decoration: none;
-    border-radius: 20px;
-    font-weight: 600;
-    text-align: center;
-}
-.button-kit-black{
-    background-color: black;
-    display: inline-block;
-    padding: 12px 24px;
-    color: white;
-    text-decoration: none;
-    border-radius: 20px;
-    font-weight: 600;
-    text-align: center;
-}
-.button-kit-pink{
-    background-color: rgb(245, 178, 198);
-    display: inline-block;
-    padding: 12px 24px;
-    color: white;
-    text-decoration: none;
-    border-radius: 20px;
-    font-weight: 600;
     align-items: center;
+} 
+/* don't use same classes on same types of properties */
+.button-green{
+    background-color: #04AA6D;
+}
+.button-yellow{
+    background-color: rgb(205, 205, 106);
+}
+.button-black{
+    background-color: black;
+}
+.button-pink{
+    background-color: rgb(245, 178, 198);
 }
 .example{
     position: relative;
     border: 1px solid red;
-     display: flex;
-    justify-content: flex-end;
+     text-align: center;
+     margin: 30px;
+     border-radius: 10px;
+     padding: 20px;
+     background-color: #E7E9EB;
+     width: 300px;
+}
+.example h2{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: black;
+    text-decoration: none;
+}
+.example-code{
+    background-color: #ffffff;
+    padding: 15px;
+    border-left: 4px solid #04AA6D;
+    white-space: pre;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: left;
+}
+.example-code span.doctype{
+    color: #808080;
+}
+.example-code span.tag{
+    color:rgb(131, 7, 48) ;
+}
+.try { 
+    display: inline-flex;
+    align-items: center;
+
+  border-radius: 20px;
+  padding: 8px 16px ;
+  font-size: 20px;
+  font-weight: 100;
+  background-color: #04AA6D;
+  color: #ffffff;
+  border: none;
+  text-align: left;
+}
+.button-container{
+    margin-left: 8px;
 }
