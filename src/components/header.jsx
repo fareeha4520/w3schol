@@ -18,8 +18,8 @@ const Header = () => {
   <a href="#services">Get certified</a>
       
     </div>
-    <button className="button">Log in</button>
-    <button className="button">Sign Up</button></div>
+    <button  className="button" >sign in</button>
+    </div>
   </div>
   </>
   );

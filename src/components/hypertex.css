@@ -1,0 +1,84 @@
+.html-container{
+    max-width: 100%;
+    margin: 0 ;
+    background-color: #b4e3c6;
+}
+.html{
+    padding: 40px 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-right: 0;
+    max-width: 50%;
+    border: 1px solid red;
+}
+.html h1{
+    font-size: 62px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 10px;
+}
+.html p.subtitle {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: black;
+}
+.button-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+
+   
+}
+.button-kit{
+  display: inline-flex;
+    padding: 12px 24px;
+    background-color: #04AA6D;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    align-items: center;}
+    
+
+.button-kit-yellow{
+    background-color: rgb(205, 205, 106);
+    display: inline-block;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.button-kit-black{
+    background-color: black;
+    display: inline-block;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.button-kit-pink{
+    background-color: rgb(245, 178, 198);
+    display: inline-block;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 600;
+    align-items: center;
+}
+.example{
+    position: relative;
+    border: 1px solid red;
+     display: flex;
+    justify-content: flex-end;
+}
