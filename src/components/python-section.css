@@ -1,25 +1,25 @@
-.css-container-1 {
+.python-container {
   max-width: 100%;
   margin: 0;
-  background-color:#FFF4A3;
+  background-color:#F3ECEA;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.css {
+.python {
   padding: 40px 20px;
   border-radius: 5px;
   margin-bottom: 30px;
   margin-right: 0;
   max-width: 50%;
 }
-.css h1 {
+.python h1 {
   font-size: 62px;
   font-weight: 700;
   color: black;
   margin-bottom: 10px;
 }
-.css p.subtitle {
+.python p.subtitle {
   font-size: 20px;
   margin-bottom: 30px;
   color: black;
@@ -37,7 +37,7 @@
 .button-kit {
   display: inline-flex;
   padding: 12px 24px;
-  width: 120px;
+  width: 160px;
   color: white;
   text-decoration: none;
   border-radius: 20px;
@@ -64,7 +64,7 @@
   border-radius: 10px;
   padding: 20px;
   background-color: #e7e9eb;
-  width: 300px;
+  width: 400px;
 }
 .example h2 {
   font-size: 24px;
@@ -81,15 +81,16 @@
   margin-bottom: 20px;
   font-size: 15px;
   text-align: left;
+  height:150px;
 }
-.sector{
-    color: brown;
+.condition{
+    color: rgb(56, 56, 235);
 }
-.property{
-    color: red;
+.number{
+    color:rgb(131,7,48);
 }
-.value{
-    color:blue;
+.testing{
+    color:#057a4f;
 }
 .try {
   display: inline-flex;

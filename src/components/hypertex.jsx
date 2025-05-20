@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Hypertext = () => {
+const Scripting = () => {
   return (
     <>
     <div class="html-container">
@@ -43,4 +43,4 @@ const Hypertext = () => {
   );
 }
 
-export default Hypertext;
+export default Scripting;

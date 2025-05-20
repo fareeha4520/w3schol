@@ -1,28 +1,28 @@
-.css-container-1 {
+.script-container{
   max-width: 100%;
   margin: 0;
-  background-color:#FFF4A3;
+  background-color:#282A35;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.css {
+.script {
   padding: 40px 20px;
   border-radius: 5px;
   margin-bottom: 30px;
   margin-right: 0;
   max-width: 50%;
 }
-.css h1 {
+.script h1 {
   font-size: 62px;
   font-weight: 700;
-  color: black;
+  color:white;
   margin-bottom: 10px;
 }
-.css p.subtitle {
+.script p.subtitle {
   font-size: 20px;
   margin-bottom: 30px;
-  color: black;
+  color: white;
 }
 .button-container {
   display: flex;
@@ -37,7 +37,7 @@
 .button-kit {
   display: inline-flex;
   padding: 12px 24px;
-  width: 120px;
+  width: 160px;
   color: white;
   text-decoration: none;
   border-radius: 20px;
@@ -64,7 +64,7 @@
   border-radius: 10px;
   padding: 20px;
   background-color: #e7e9eb;
-  width: 300px;
+  width: 400px;
 }
 .example h2 {
   font-size: 24px;
@@ -81,15 +81,22 @@
   margin-bottom: 20px;
   font-size: 15px;
   text-align: left;
+  
 }
-.sector{
-    color: brown;
+.html-tag{
+    color:rgb(131,7,48)
 }
-.property{
-    color: red;
+.html-attr{
+    color: #057a4f;
 }
-.value{
-    color:blue;
+.string{
+    color:rgb(82, 82, 207);
+}
+.keyword{
+    color:#795e26;
+}
+.function{
+    color: #000000;
 }
 .try {
   display: inline-flex;

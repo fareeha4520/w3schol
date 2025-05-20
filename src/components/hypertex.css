@@ -31,7 +31,7 @@
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     flex-direction: column;
     /* just removed the 30% width that fix the issue. */
 }
@@ -52,7 +52,7 @@
     background-color: #04AA6D;
 }
 .button-yellow{
-    background-color: rgb(205, 205, 106);
+    background-color:rgb(205,205,106);
 }
 .button-black{
     background-color: black;
@@ -85,6 +85,7 @@
     margin-bottom: 20px;
     font-size: 15px;
     text-align: left;
+    
 }
 .example-code span.doctype{
     color: #808080;
@@ -95,7 +96,6 @@
 .try { 
     display: inline-flex;
     align-items: center;
-
   border-radius: 20px;
   padding: 8px 16px ;
   font-size: 20px;
@@ -103,8 +103,8 @@
   background-color: #04AA6D;
   color: #ffffff;
   border: none;
-  text-align: left;
+  text-align:center;
 }
 .button-container{
-    margin-left: 8px;
+    text-align: left;
 }

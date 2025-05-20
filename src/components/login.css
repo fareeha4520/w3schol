@@ -1,0 +1,35 @@
+.login-container {
+  text-align: center;
+  background-color: #D9EEE1;
+  border: 1px solid red;
+  padding: 20px;
+}
+
+.sign-up {
+  margin-bottom: 30px;
+}
+
+.sign-up h1 {
+  color: black;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.sub-text {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}

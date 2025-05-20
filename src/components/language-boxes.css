@@ -1,0 +1,125 @@
+.item{
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    background-color: #282A35;
+    text-align: center;
+}
+.card{
+    border: 1px solid red;
+    margin:20px;
+    width: 560px;
+    height: 200px;
+    border-radius: 8px;
+
+}
+h3{
+    font-size: 30px;
+    margin: 20px;
+    color:black;
+}
+p{
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.btns{
+    background-color: #282A35;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 40%;
+
+}
+#php-box{
+    background-color:rgb(245, 178, 198);
+}
+#jquery-box{
+    background-color:#FFF4A3; ;
+}
+#java-box{
+    background-color:#F3ECEA;
+}
+#cc-box{
+    background-color: #D9EEE1;
+}
+#w3-box{
+    background-color: #96D4D4;
+}
+#bootstrap{
+    background-color: #E7E9EB;
+}
+#c{
+    background-color: #FFC0C7;
+height: 120px;
+}
+#C{
+    background-color: #FFF4A3;
+height: 120px;
+}
+.container{
+    width: 100%;
+    border-radius: 12px;
+    padding: 15px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 32px;
+    margin-bottom: 15px;
+    border: 1px solid red;
+}
+.grid-item{
+    border-radius: 8px;
+    padding: 12px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    border: 1px solid red;
+    margin:10px;
+    height: 100px;
+    width: 230px;
+    
+}
+#r{
+    background-color: #f3ECEA;
+}
+#koltin{
+background-color:#D9EEE1 ;
+}
+#nodejs{
+background-color: #96D4D4 ;
+}
+#react{
+background-color:#FFC0C7 ;
+}
+#json{
+    background-color: #FFF4A3;
+}
+.course-container{
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    border: 1px solid purple;
+
+    
+}
+.course-item{
+    border: 1px solid red;
+    margin:0 20px 20px 20px;
+    width: 560px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+}
