@@ -1,12 +1,9 @@
-<<<<<<< HEAD
-import React from 'react'
 
-const Scripting = () => {
-=======
+
 import React from "react";
 import "./hypertex.css";
 const Hypertext = () => {
->>>>>>> 7cc9550b716acee432986830fde9dc1b040b6c96
+
   return (
     <>
       <div class="html-container">
@@ -67,4 +64,4 @@ const Hypertext = () => {
   );
 };
 
-export default Scripting;
+export default Hypertext;
