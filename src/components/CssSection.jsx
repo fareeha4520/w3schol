@@ -1,17 +1,11 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Scripting = () => {
-=======
 import React from "react";
-import "./hypertex.css";
-const Hypertext = () => {
->>>>>>> 7cc9550b716acee432986830fde9dc1b040b6c96
+import "./CssSection.css";
+const CssSection = () => {
   return (
     <>
-      <div class="html-container">
+      <div class="html-container-1">
         <div className="html">
-          <h1>HTML</h1>
+          <h1>Css</h1>
           <p className="subtitle">The language for building web pages</p>
           <div className="button-container">
             <a href="#" className="button-kit button-green">
@@ -67,4 +61,4 @@ const Hypertext = () => {
   );
 };
 
-export default Scripting;
+export default CssSection;

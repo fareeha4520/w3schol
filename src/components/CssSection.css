@@ -1,7 +1,7 @@
-.html-container {
+.html-container-1 {
   max-width: 100%;
   margin: 0;
-  background-color: #b4e3c6;
+  background-color: pink;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,17 +24,6 @@
   margin-bottom: 30px;
   color: black;
 }
-<<<<<<< HEAD
-.button-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-    flex-direction: column;
-    /* just removed the 30% width that fix the issue. */
-=======
 .button-container {
   display: flex;
   justify-content: center;
@@ -56,19 +45,13 @@
   text-align: center;
   justify-content: center;
   align-items: center;
->>>>>>> 7cc9550b716acee432986830fde9dc1b040b6c96
 }
 /* don't use same classes on same types of properties */
 .button-green {
   background-color: #04aa6d;
 }
-<<<<<<< HEAD
-.button-yellow{
-    background-color:rgb(205,205,106);
-=======
 .button-yellow {
   background-color: rgb(205, 205, 106);
->>>>>>> 7cc9550b716acee432986830fde9dc1b040b6c96
 }
 .button-black {
   background-color: black;
@@ -92,18 +75,6 @@
   color: black;
   text-decoration: none;
 }
-<<<<<<< HEAD
-.example-code{
-    background-color: #ffffff;
-    padding: 15px;
-    border-left: 4px solid #04AA6D;
-    white-space: pre;
-    overflow-x: auto;
-    margin-bottom: 20px;
-    font-size: 15px;
-    text-align: left;
-    
-=======
 .example-code {
   background-color: #ffffff;
   padding: 15px;
@@ -113,7 +84,6 @@
   margin-bottom: 20px;
   font-size: 15px;
   text-align: left;
->>>>>>> 7cc9550b716acee432986830fde9dc1b040b6c96
 }
 .example-code span.doctype {
   color: #808080;
@@ -121,16 +91,10 @@
 .example-code span.tag {
   color: rgb(131, 7, 48);
 }
-<<<<<<< HEAD
-.try { 
-    display: inline-flex;
-    align-items: center;
-=======
 .try {
   display: inline-flex;
   align-items: center;
 
->>>>>>> 7cc9550b716acee432986830fde9dc1b040b6c96
   border-radius: 20px;
   padding: 8px 16px;
   font-size: 20px;
@@ -138,15 +102,9 @@
   background-color: #04aa6d;
   color: #ffffff;
   border: none;
-  text-align:center;
+  text-align: left;
 }
-<<<<<<< HEAD
-.button-container{
-    text-align: left;
-}
-=======
 .button-container {
   margin-left: 8px;
 }
 
->>>>>>> 7cc9550b716acee432986830fde9dc1b040b6c96
