@@ -10,6 +10,7 @@ import './components/python-section.css';
 import './components/query.css';
 import './components/language-boxes.css';
 import './components/login.css';
+import './components/code-editor.css';
 
 import Header from './components/header';
 import Footer from './components/footer';
@@ -21,6 +22,7 @@ import Python from './components/python-section';
 import Query from './components/query';
 import LanguageBoxes from './components/language-boxes';
 import Login from './components/login';
+import Editor from './components/code-editor';
 
 
 
@@ -36,6 +38,7 @@ function App() {
 <Query/>
 <LanguageBoxes/>
 <Login/>
+<Editor/>
 
 <Footer/>
   </>

@@ -101,8 +101,8 @@
   color: rgb(131, 7, 48);
 }
 
-.try {
-  display: inline-flex;
+.try{
+  display: flex;
   align-items: center;
   border-radius: 20px;
   padding: 8px 16px;
@@ -113,7 +113,7 @@
   border: none;
   text-align:center;
 }
+
 .button-container {
   margin-left: 8px;
 }
-

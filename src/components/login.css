@@ -21,15 +21,26 @@
   font-size: 20px;
 }
 
-.image {
+.images {
   display: flex;
   justify-content: center;
 
 }
 
-.image img {
-  max-width: 100%;
+.images img {
+  max-width: 900px;
   height: auto;
-  border: 2px solid #ccc;
   border-radius: 10px;
+}
+.sign-up-button{
+background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 300px;
+  margin: 20px auto; /* centers it horizontally */
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
 }
