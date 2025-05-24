@@ -10,7 +10,7 @@ const Editor = () => {
       With our online code editor, you can edit code and view the result in your browser
     </div>
     <div className='edit-video'>
-    <img src=''></img>
+    <img src='User/app/html-css GIF.webp'></img>
       </div>
     
       <div className='editor-button'>Try Frontend Ediotor (HTML/CSS/JS)</div>
