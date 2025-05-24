@@ -10,9 +10,7 @@ const Editor = () => {
       With our online code editor, you can edit code and view the result in your browser
     </div>
     <div className='edit-video'>
-        <video width="980" autoPlay  loop controls>
-    <source src="https://www.w3schools.com/codeeditor.mp4" type="video/mp4" />
-      </video>
+    <img src=''></img>
       </div>
     
       <div className='editor-button'>Try Frontend Ediotor (HTML/CSS/JS)</div>

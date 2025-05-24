@@ -1,0 +1,56 @@
+.learn-container{
+     background-color:white;
+    text-align: center;
+    padding: 20px;
+    
+}
+.learning h1{
+      font-weight: 700;
+    font-size: 48px;
+    color: black;
+    line-height: 4px;
+    margin-bottom: 60px;
+}
+.learning h2{
+    color: black;
+font-size: 20px;
+font-weight: 600;
+text-decoration: none;
+margin-bottom: 30px;
+}
+.learning h4{
+    font-weight: 600;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.learn-image img{
+    width: 800px;
+    margin-bottom: 0;
+}
+.how-to{
+    width: 50px;
+    height: 100px;
+    background-color: #282A35;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    margin-top: 0;
+    margin:0 auto;
+}
+.how-to-btn{
+    background-color:#282A35;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 15px;
+    border: none;
+    width: 320px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+.how-to-btn:hover{
+    background-color: #04aa6d;
+    pointer:cursor;
+}

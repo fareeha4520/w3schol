@@ -1,0 +1,41 @@
+.gaming-code{
+     background-color:#96D4D4;
+    text-align: center;
+    padding: 20px;
+    
+}
+.gaming h1{
+      font-weight: 700;
+    font-size: 48px;
+    color: black;
+    font-family:'Freckle Face', cursive;
+    line-height: 4px;
+}
+.gaming h2{
+     color: black;
+font-size: 32px;
+font-weight: 700;
+text-decoration: none;
+margin-bottom: 40px;
+font-family:'Freckle Face', cursive;
+}
+.game-image img{
+    margin-bottom: 40px;
+}
+.game-btn{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.play-btn{
+    background-color: #282A35;
+  color: white;
+  border-radius: 25px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 300px;
+  text-align: center; 
+  margin-bottom: 80px;
+}

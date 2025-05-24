@@ -1,0 +1,42 @@
+.quiz-container{
+     background-color:#282A35;
+    text-align: center;
+    padding: 20px;
+}
+.quizing h1{
+     font-weight: 700;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+}
+.quizing h2{
+    color:white;
+font-size: 20px;
+font-weight: 400;
+text-decoration: none;
+margin-bottom: 40px;
+}
+.exercise-containers{
+    width: 100%;
+    padding: 0 8px;
+    display: flex;
+    justify-content: center;
+gap:8%;
+}
+.exercise-boxes{
+    width: 500px;
+    height: 200px;
+    background-color: #04aa6d;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+#changing{
+    color: black;
+    background-color: #FFF4A3;
+}
