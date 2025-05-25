@@ -8,13 +8,13 @@ const Scripting = () => {
           <h1>JavaScript</h1>
           <p className="subtitle">The language for programming web pages</p>
           <div className="button-container">
-            <a href="#" className="button-kit button-green">
+            <a href="#" className="button-kit"id="green">
               Learn JavaScript
             </a>
-            <a href="#" className="button-kit button-black">
+            <a href="#" className="button-kit" id="button-blacks">
               JavaScript Reference
             </a>
-            <a href="#" className="button-kit button-pink">
+            <a href="#" className="button-kit" id="pink">
               Get Certified
             </a>
           </div>
@@ -33,9 +33,8 @@ const Scripting = () => {
 {'}'}<br></br>
 <span class="html-tag">&lt;/script&gt;</span>
           </div>
-          <div className="button-container">
-            <button className="try">Try it Yourself</button>
-          </div>
+           <div className="butn-container">
+         <button className="try">Try it Yourself</button></div>
         </div>
       </div>
     </>

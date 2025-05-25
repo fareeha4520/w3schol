@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <div className="top-header">
         <a href="#" className="logo">
-          W3Schools
+          <img src="https://api.iconify.design/simple-icons:w3schools.svg" ></img>
         </a>
         <a href="#tutorials">Tutorials</a>
         <a href="#exercises">Exercises</a>

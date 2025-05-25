@@ -5,16 +5,16 @@ const Query = () => {
     <>
     <div class="query-container">
         <div className="query">
-          <h1>Python</h1>
+          <h1>SQL</h1>
           <p className="subtitle">A language for accessing databases</p>
           <div className="button-container">
-            <a href="#" className="button-kit button-green">
+            <a href="#" className="button-kit" id="green">
               Learn SQL
             </a>
-            <a href="#" className="button-kit button-black">
+            <a href="#" className="button-kit" id="black">
               SQL Reference
             </a>
-            <a href="#" className="button-kit button-pink">
+            <a href="#" className="button-kit" id="pink">
               Get Certified
             </a>
           </div>
@@ -29,7 +29,7 @@ const Query = () => {
             <span className='keyword' >WHERE </span>Country=
             <span className='cntry'>'Mexico'</span> ;
           </div>
-          <div className="button-container">
+          <div className="butn-container">
             <button className="try">Try it Yourself</button>
           </div>
         </div>

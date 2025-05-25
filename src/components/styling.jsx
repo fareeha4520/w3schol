@@ -8,13 +8,13 @@ const Styling = () => {
           <h1>Css</h1>
           <p className="subtitle">The language for styling web pages</p>
           <div className="button-container">
-            <a href="#" className="button-kit button-green">
+            <a href="#" className="button-kit"id="green">
               Learn CSS
             </a>
-            <a href="#" className="button-kit button-black">
+            <a href="#" className="button-kit"id ="black">
               CSS Reference
             </a>
-            <a href="#" className="button-kit button-pink">
+            <a href="#" className="button-kit" id="pink">
               Get Certified
             </a>
           </div>
@@ -34,9 +34,8 @@ const Styling = () => {
       &nbsp;&nbsp;<span className="property">font-family</span>: <span className="value">verdana</span>;<br />
       {'}'}
           </div>
-          <div className="button-container">
-            <button className="try">Try it Yourself</button>
-          </div>
+          <div className="butn-container">
+         <button className="try">Try it Yourself</button></div>
         </div>
       </div>
     </>

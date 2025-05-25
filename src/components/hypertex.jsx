@@ -11,16 +11,16 @@ const Hypertext = () => {
           <h1>HTML</h1>
           <p className="subtitle">The language for building web pages</p>
           <div className="button-container">
-            <a href="#" className="button-kit button-green">
+            <a href="#" className="button-kit" id="green">
               Learn HTML
             </a>
-            <a href="#" className="button-kit button-yellow">
+            <a href="#" className="button-kit" id="yellow">
               Video Tutorial
             </a>
-            <a href="#" className="button-kit button-black">
+            <a href="#" className="button-kit" id="black">
               HTML Reference
             </a>
-            <a href="#" className="button-kit button-pink">
+            <a href="#" className="button-kit" id="pink">
               Get Certified
             </a>
           </div>
@@ -55,9 +55,8 @@ const Hypertext = () => {
             <span class="tag">&lt;/html&gt;</span>
             <br></br>
           </div>
-          <div className="button-container">
-            <button className="try">Try it Yourself</button>
-          </div>
+          <div className="butn-container">
+         <button className="try">Try it Yourself</button></div>
         </div>
       </div>
     </>

@@ -10,6 +10,7 @@ const Certified = () => {
        <h1 id='move'>Get certified by completing a course</h1>
    </div>
    <button className='start-btn'>Get Started</button>
+   <div className='circle'>cvbnm</div>
    </div>
     </>
   );

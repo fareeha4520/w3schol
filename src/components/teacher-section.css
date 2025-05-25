@@ -1,6 +1,5 @@
 .teacher-container{
     background-color: #282A35;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +15,6 @@
 
 .teacher-sub-container-2{
  position: relative;
-  border: 1px solid red;
   text-align: center;
   margin: 30px;
   border-radius: 10px;

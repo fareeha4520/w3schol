@@ -1,7 +1,6 @@
 .editor-container{
     text-align: center;
   background-color: #282A35;
-  border: 1px solid red;
   padding: 20px;
 }
 .edit{
@@ -42,4 +41,7 @@ background-color: #04aa6d;
     background-color:#FFF4A3 ;
     width: 400px;
     color: black;
+}
+.circle{
+  background-color: #04aa6d;
 }

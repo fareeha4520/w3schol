@@ -14,8 +14,8 @@
   max-width: 50%;
 }
 .script h1 {
-  font-size: 62px;
-  font-weight: 700;
+  font-size: 100px;
+  font-weight: bolder;
   color:white;
   margin-bottom: 10px;
 }
@@ -23,6 +23,7 @@
   font-size: 20px;
   margin-bottom: 30px;
   color: white;
+  font-weight: bold;
 }
 .button-container {
   display: flex;
@@ -47,18 +48,16 @@
   align-items: center;
 }
 /* don't use same classes on same types of properties */
-.button-green {
-  background-color: #04aa6d;
-}
-.button-black {
-  background-color: black;
-}
-.button-pink {
-  background-color: rgb(245, 178, 198);
+
+#button-blacks {
+  background-color: white;
+  text-decoration: none;
+  color: #000000;
+  font-size: 15px;
+
 }
 .example {
   position: relative;
-  border: 1px solid red;
   text-align: center;
   margin: 30px;
   border-radius: 10px;
@@ -97,20 +96,4 @@
 }
 .function{
     color: #000000;
-}
-.try {
-  display: inline-flex;
-  align-items: center;
-
-  border-radius: 20px;
-  padding: 8px 16px;
-  font-size: 20px;
-  font-weight: 100;
-  background-color: #04aa6d;
-  color: #ffffff;
-  border: none;
-  text-align: left;
-}
-.button-container {
-  margin-left: 8px;
 }

@@ -35,7 +35,7 @@ const LanguageBoxes = () => {
             <button className='btns'>Learn Bootstrap</button>
     </div>
              <div className='card'id="c">
-             <h3>C#</h3>
+             <h3>C</h3>
      </div>
              <div className='card'id="C">
              <h3>C#</h3>

@@ -20,7 +20,7 @@ const Lanuage = () => {
         <a href="#react">REACT</a>
         <a href="mysql">MYSQL</a>
 
-        <h1>Learn to code</h1>
+        <h1>Learn to Code</h1>
         <p className="subtitle">With the world's largest web developer site.</p>
         <div className="search-container">
           <input
