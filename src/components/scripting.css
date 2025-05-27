@@ -97,3 +97,96 @@
 .function{
     color: #000000;
 }
+
+
+/* Responsive for tablets */
+@media screen and (max-width: 1024px) {
+  .script-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .script {
+    max-width: 90%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .script h1 {
+    font-size: 70px;
+  }
+
+  .example {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .button-container {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .button-kit {
+    width: 140px;
+    font-size: 16px;
+  }
+}
+
+/* Responsive for mobiles */
+@media screen and (max-width: 768px) {
+  .script-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .script {
+    max-width: 100%;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .script h1 {
+    font-size: 45px;
+  }
+
+  .script p.subtitle {
+    font-size: 16px;
+  }
+
+  .button-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .button-kit {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 15px;
+  }
+
+  .example {
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+  }
+
+  .example h2 {
+    font-size: 18px;
+  }
+
+  .example-code {
+    font-size: 14px;
+  }
+
+  .try {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+  .butn-container {
+    justify-content: center;
+  }
+}

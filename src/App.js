@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import './components/header.css';
 import './components/language.css';
+import './components/searching-tutorial.css';
 import './components/hypertex.css';
 import './components/styling.css';
 import './components/scripting.css';
@@ -25,6 +26,7 @@ import './components/learn.css';
 import Header from './components/header';
 import Footer from './components/footer';
 import Lanuage from './components/lanuage';
+import SearchingTutorial from './components/searching-tutorial';
 import Hypertext from './components/hypertex';
 import Styling from './components/styling';
 import Scripting from './components/scripting';
@@ -49,6 +51,7 @@ function App() {
     <>
     <Header/>
    <Lanuage/>
+   <SearchingTutorial/>
    <Hypertext/>
   <Styling/>
 <Scripting/>

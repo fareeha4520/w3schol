@@ -81,3 +81,35 @@
 .cntry{
     color:#057a4f;
 }
+  .query-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .query {
+    max-width: 90%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .query h1 {
+    font-size: 70px;
+  }
+
+  .example {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .button-container {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .button-kit {
+    width: 140px;
+    font-size: 16px;
+  }
+
+

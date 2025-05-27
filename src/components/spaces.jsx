@@ -12,9 +12,7 @@ const Spaces = () => {
        It is free to use,and does not require any setup:
     </div>
     <div className='spacing-video'>
-        <video width="850" height="400" autoPlay  loop controls>
-        <source src="https://www.w3schools.com/spaces/dynamicspaces.webp"/>
-      </video>
+         <img src="/dynamicspaces.webp"></img>
       </div>
     <div className='learning-btn'>
     <div className='spacing-button'>Learn More</div>
