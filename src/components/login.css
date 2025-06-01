@@ -44,3 +44,50 @@ background-color: #04aa6d;
   text-align: center;
   cursor: pointer;
 }
+/* For tablets (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  .sign-up h1 {
+    font-size: 50px;
+  }
+
+  .sub-text {
+    font-size: 18px;
+    margin: 30px 10px;
+  }
+
+  .images img {
+    max-width: 90%;
+  }
+
+  .sign-up-button {
+    width: 250px;
+    font-size: 18px;
+    padding: 14px;
+  }
+}
+
+/* For mobile devices (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .login-container {
+    padding: 15px;
+  }
+
+  .sign-up h1 {
+    font-size: 36px;
+  }
+
+  .sub-text {
+    font-size: 16px;
+    margin: 20px 10px;
+  }
+
+  .images img {
+    max-width: 100%;
+  }
+
+  .sign-up-button {
+    width: 90%;
+    font-size: 16px;
+    padding: 12px;
+  }
+}

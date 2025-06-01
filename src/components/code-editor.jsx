@@ -14,8 +14,6 @@ const Editor = () => {
       </div>
       <div className='editor-button'>Try Frontend Ediotor (HTML/CSS/JS)</div>
       <div className='editor-button' id='color'>Try Backend Ediotor (Python/PHP/Java/C...)</div>
-      
-
    </div>
 
 

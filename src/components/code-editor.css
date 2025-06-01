@@ -2,6 +2,7 @@
     text-align: center;
   background-color: #282A35;
   padding: 20px;
+  
 }
 .edit{
     margin-bottom: 30px;
@@ -17,6 +18,7 @@
   font-size: 20px;
   color: white;
 }
+
 .edit-video {
   display: flex;
   justify-content: center;
@@ -35,7 +37,9 @@ background-color: #04aa6d;
   border-radius: 8px;
   cursor: pointer;
   text-align: center;
-  margin-left: 10%;
+  margin-left: 12%;
+  
+
 }
 #color{
     background-color:#FFF4A3 ;
@@ -44,4 +48,66 @@ background-color: #04aa6d;
 }
 .circle{
   background-color: #04aa6d;
+}
+/* For tablets (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  .edit h1 {
+    font-size: 48px;
+  }
+
+  .subText {
+    font-size: 18px;
+    margin: 25px 10px;
+  }
+
+  .editor-button {
+    width: 80%;
+    font-size: 18px;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  #color {
+    width: 85%;
+  }
+
+  .edit-video img {
+    max-width: 90%;
+    height: auto;
+  }
+}
+
+/* For mobile devices (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .editor-container {
+    padding: 15px;
+  }
+
+  .edit h1 {
+    font-size: 36px;
+  }
+
+  .subText {
+    font-size: 16px;
+    margin: 20px 5px;
+  }
+
+  .editor-button {
+    width: 90%;
+    font-size: 16px;
+    padding: 10px;
+    margin: 15px auto;
+    
+  }
+
+  #color {
+    width: 90%;
+  }
+
+  .edit-video img {
+    max-width: 100%;
+    height: auto;
+  }
 }

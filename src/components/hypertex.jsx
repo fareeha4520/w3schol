@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import "./hypertex.css";
 const Hypertext = () => {

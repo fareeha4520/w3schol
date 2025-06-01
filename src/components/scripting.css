@@ -63,7 +63,7 @@
   border-radius: 10px;
   padding: 20px;
   background-color: #e7e9eb;
-  width: 400px;
+  max-width: 400px;
 }
 .example h2 {
   font-size: 24px;
