@@ -4,11 +4,13 @@ const Hypertext = () => {
 
   return (
     <>
+              <svg  style={{ backgroundColor: "#D9EEE1" }} width="100%" height="70"  viewBox="0 0 100 100" preserveAspectRatio="none">
+  <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="#282A35"></path></svg>
       <div class="html-container">
         <div className="html">
           <h1>HTML</h1>
           <p className="subtitle">The language for building web pages</p>
-          <div className="button-container">
+          <div className="button-containers">
             <a href="#" className="button-kit" id="green">
               Learn HTML
             </a>
@@ -57,6 +59,7 @@ const Hypertext = () => {
          <button className="try">Try it Yourself</button></div>
         </div>
       </div>
+    
     </>
   );
 };

@@ -7,7 +7,7 @@ const Python = () => {
         <div className="python">
           <h1>Python</h1>
           <p className="subtitle">A popular programming language</p>
-          <div className="button-container">
+          <div className="button-containers">
             <a href="#" className="button-kit" id="green">
               Learn Python
             </a>
@@ -37,4 +37,4 @@ const Python = () => {
   );
 }
 
-export default Python;
+export default Python;                     

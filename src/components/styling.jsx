@@ -7,7 +7,7 @@ const Styling = () => {
         <div className="css">
           <h1>Css</h1>
           <p className="subtitle">The language for styling web pages</p>
-          <div className="button-container">
+          <div className="button-containers">
             <a href="#" className="button-kit"id="green">
               Learn CSS
             </a>
@@ -42,4 +42,4 @@ const Styling = () => {
   );
 };
 
-export default Styling;
+export default Styling;                                                          

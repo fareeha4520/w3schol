@@ -7,7 +7,7 @@ const Scripting = () => {
         <div className="script">
           <h1>JavaScript</h1>
           <p className="subtitle">The language for programming web pages</p>
-          <div className="button-container">
+          <div className="button-containers">
             <a href="#" className="button-kit"id="green">
               Learn JavaScript
             </a>

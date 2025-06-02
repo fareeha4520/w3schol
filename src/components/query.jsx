@@ -7,7 +7,7 @@ const Query = () => {
         <div className="query">
           <h1>SQL</h1>
           <p className="subtitle">A language for accessing databases</p>
-          <div className="button-container">
+          <div className="button-containers">
             <a href="#" className="button-kit" id="green">
               Learn SQL
             </a>
@@ -38,4 +38,4 @@ const Query = () => {
   );
 }
 
-export default Query;
+export default Query;                         
