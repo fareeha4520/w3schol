@@ -52,3 +52,41 @@ background-color: #04aa6d;
 .circle{
   background-color: #04aa6d;
 }
+/* Tablet screens */
+@media screen and (max-width: 1024px) {
+  .edit h1 {
+    font-size: 50px;
+    
+  }
+
+  .subText {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  .editor-button {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+
+/* Mobile screens */
+@media screen and (max-width: 768px) {
+  .edit h1 {
+    font-size: 36px;
+  }
+
+  .subText {
+    font-size: 16px;
+  }
+
+  .editor-button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .edit-video img {
+    max-width: 100%;
+  }
+}

@@ -47,3 +47,92 @@
   border-radius: 28px;
   
 }
+/* Large screens (1440px and up) */
+@media screen and (min-width: 1440px) {
+  .space h1 {
+    font-size: 70px;
+  }
+
+  .space-text {
+    font-size: 22px;
+    max-width: 1000px;
+    margin: 0 auto 35px;
+  }
+
+  .spacing-video img {
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  .spacing-button {
+    font-size: 22px;
+    width: 300px;
+  }
+}
+
+/* Tablets and smaller desktops (1024px - 1439px) */
+@media screen and (max-width: 1439px) {
+  .space h1 {
+    font-size: 50px;
+  }
+
+  .space-text {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+
+  .spacing-video img {
+    width: 90%;
+    max-width: 800px;
+  }
+
+  .spacing-button {
+    width: 240px;
+    font-size: 18px;
+  }
+}
+
+/* Mobile and tablets (768px - 1023px) */
+@media screen and (max-width: 1023px) {
+  .space h1 {
+    font-size: 40px;
+  }
+
+  .space-text {
+    font-size: 16px;
+    padding: 0 16px;
+  }
+
+  .spacing-video img {
+    width: 95%;
+  }
+
+  .spacing-button {
+    width: 90%;
+    font-size: 16px;
+  }
+}
+
+/* Small mobile screens (below 768px) */
+@media screen and (max-width: 767px) {
+  .space h1 {
+    font-size: 32px;
+  }
+
+  .space-text {
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 0 12px;
+  }
+
+  .spacing-video img {
+    width: 100%;
+  }
+
+  .spacing-button {
+    width: 100%;
+    margin: 20px 12px;
+    font-size: 15px;
+    padding: 12px;
+  }
+}

@@ -46,8 +46,10 @@ background-color: #04aa6d;
 }
 /* For tablets (max-width: 1024px) */
 @media screen and (max-width: 1024px) {
+
   .sign-up h1 {
     font-size: 50px;
+    
   }
 
   .sub-text {
@@ -91,3 +93,4 @@ background-color: #04aa6d;
     padding: 12px;
   }
 }
+

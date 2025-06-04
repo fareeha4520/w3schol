@@ -64,3 +64,36 @@ margin-bottom: 40px;
   height: auto;
   border-radius: 10px;
 }
+@media (max-width: 768px) {
+  .teacher-container {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+  .teacher-sub-container-1,
+  .teacher-sub-container-2 {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .teacher-style {
+    text-align: center;
+  }
+
+  .teacher-style li {
+    justify-content: center;
+  }
+
+  .teacher-sub-container-1 h1 {
+    font-size: 36px;
+  }
+
+  .teacher-sub-container-1 h2 {
+    font-size: 16px;
+  }
+
+  .spacing-button {
+    width: 90%;
+  }
+}
