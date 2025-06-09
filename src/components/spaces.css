@@ -108,13 +108,13 @@
   }
 
   .spacing-button {
-    width: 90%;
+    width: 200px;
     font-size: 16px;
   }
 }
 
 /* Small mobile screens (below 768px) */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .space h1 {
     font-size: 32px;
   }

@@ -8,7 +8,7 @@ const LearningSection = () => {
       <h1>How To Section </h1>
        <h2>Code snippets for HTML, CSS and JavaScript</h2>
        <h4>For Example, how to create a slideshow:</h4>
-   </div>
+   </div>   
 <div className='learn-image'>
     <img src='https://www.w3schools.com/howto/img_nature_wide.jpg'></img>
     <div className='how-to'></div>

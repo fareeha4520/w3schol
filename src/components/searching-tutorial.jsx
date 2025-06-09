@@ -9,7 +9,7 @@ const SearchingTutorial = () => {
         <div className="search-container">
           <input
             type="text"
-            placeholder="Search our tutorials, e.g HTML"
+            placeholder="   Search our tutorials, e.g HTML"
           ></input>
           <button className="click">
             <img src="https://api.iconify.design/material-symbols:search.svg "></img>

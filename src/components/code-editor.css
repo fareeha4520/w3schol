@@ -68,6 +68,9 @@ background-color: #04aa6d;
     font-size: 16px;
     padding: 10px;
   }
+  .edit-video img {
+    max-width: 100%;
+  }
 }
 
 
@@ -82,8 +85,11 @@ background-color: #04aa6d;
   }
 
   .editor-button {
-    width: 100%;
+    width: 60%;
     font-size: 16px;
+  }
+  #color{
+    width: 70%;
   }
 
   .edit-video img {

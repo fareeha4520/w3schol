@@ -62,7 +62,7 @@ font-weight: 500;
 }
 #C{
     background-color: #FFF4A3;
-height: 120px;
+height: 140px;
 }
 .container{
     width: 100%;
@@ -107,7 +107,7 @@ background-color:#FFC0C7 ;
     margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
-    gap:30px;
+    gap:10px;
 
     
 }
@@ -129,9 +129,15 @@ background-color:#FFC0C7 ;
     gap: 20px;
   }
 
-  .card, .course-item {
+  .card{
     width: 90%;
-    height: auto;
+    height: 240px;
+    
+  }
+  .course-item{
+     width: 90%;
+    height: 140px;
+
   }
 
   .grid {
@@ -141,19 +147,20 @@ background-color:#FFC0C7 ;
 
   .grid-item {
     width: 90%;
-    height: auto;
+    height:100px;
     font-size: 24px;
-    padding: 10px;
+    padding: 20px;
   }
 
   .btns {
-    width: 60%;
+    width: 200px;
     font-size: 16px;
     margin-bottom: 20px;
   }
 
   h3 {
     font-size: 35px;
+    margin-top: 20px;
   }
 
   p {
@@ -168,25 +175,31 @@ background-color:#FFC0C7 ;
     align-items: center;
   }
 
-  .card, .course-item {
-    width: 100%;
+  .card{
+    width: 90%;
     height: auto;
+    margin: 10px 0;
+  }
+  .course-item {
+   width:90%;
+    height: 80px;
     margin: 10px 0;
   }
 
   .grid {
     grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .grid-item {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 80px;
     font-size: 20px;
     padding: 8px;
   }
 
   .btns {
-    width: 80%;
+    width: 200px;
     font-size: 14px;
   }
 
@@ -206,6 +219,7 @@ background-color:#FFC0C7 ;
   .container {
     padding: 10px;
   }
+  
 }
 /* For large screens (1440px and up) */
 @media screen and (min-width: 1440px) {
@@ -216,7 +230,7 @@ background-color:#FFC0C7 ;
 
   .card {
     width: 600px;
-    height: 220px;
+    height: 320px;
   }
 
   .grid {
@@ -229,11 +243,12 @@ background-color:#FFC0C7 ;
     width: 240px;
     height: 110px;
     font-size: 32px;
+;
   }
 
   .course-item {
     width: 600px;
-    height: 120px;
+    height: 120px;;
     font-size: 32px;
   }
 

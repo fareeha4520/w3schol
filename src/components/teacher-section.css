@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 .teacher-sub-container-1{
     padding: 40px 20px;
@@ -32,7 +32,7 @@ color:white;
 font-size: 19px;
 font-weight: 700;
 text-decoration: none;
-margin-bottom: 40px;
+margin-bottom: 20px;
 }
 .teacher-style{
     text-align: center;
@@ -75,8 +75,11 @@ margin-bottom: 40px;
     width: 100%;
     max-width: 100%;
     text-align: center;
+    
   }
-
+.learning-btn{
+  margin-bottom: 10px;
+}
   .teacher-style {
     text-align: center;
   }
@@ -94,6 +97,18 @@ margin-bottom: 40px;
   }
 
   .spacing-button {
-    width: 90%;
+    width:200px;
+  }
+  .pic img {
+  max-width: 300px;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+}
+@media(min-width:1440px){
+.teacher-container {
+    flex-direction: column;
+    padding: 20px 10px;
   }
 }

@@ -8,9 +8,10 @@
       overflow: hidden;
       display: flex;
       align-items: center;
-      /*position: fixed;*/
+     /* position: fixed;*/
       width: 100%;
       z-index: 1000;
+      justify-content: space-between;
     }
     .top-header a.logo {
       color: #04AA6D;

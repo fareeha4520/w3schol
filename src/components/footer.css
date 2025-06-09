@@ -1,3 +1,7 @@
+
+body{
+  overflow-x: hidden;
+}
 .footer{
     background-color: #282A35;
     text-align: center;
@@ -71,6 +75,7 @@ display: flex;
 .tutorial-column ul li a {
   color: #ddd;
   text-decoration: none;
+  
 }
 
 .tutorial-column ul li a:hover {
@@ -126,7 +131,9 @@ line-height: 15px;
 
   .tutorial-container {
     grid-template-columns: 1fr;
+    flex-direction: column;
   }
+
 
   .footer-icons {
     flex-direction: column;
@@ -144,5 +151,11 @@ line-height: 15px;
 
   .footer-span {
     font-size: 14px;
+  }
+}
+@media(max-width:1030px){ 
+  .tutorial-container {
+  display: flex;
+  align-items: center;
   }
 }
