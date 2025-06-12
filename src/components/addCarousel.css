@@ -1,0 +1,113 @@
+.carousel-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.slide-number {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 3;
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: white;
+}
+
+.carousel-slide {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  background-color: #f1f1f1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+
+}
+.image-container input{
+    width: 300px;
+    background-color: white;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+
+}
+
+.caption {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: center;
+  max-width: 90%;
+}
+.carousel-wrapper .slick-prev,
+.carousel-wrapper .slick-next{
+    z-index: 3;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-wrapper .slick-prev{
+    left: 15px;
+}
+.carousel-wrapper .slick-next{
+    right: 15px;
+}
+.carousel-wrapper  .slick-prev:before,
+.carousel-wrapper  .slick-next:before {
+  color:white;
+  font-size: 20px;
+  opacity: 0.9;
+}
+.dot-bar{
+  padding: 8px;
+  display: flex;
+  gap: 8px;
+  border-radius: 8px;
+  position: absolute;
+  margin-bottom: 10px;
+}
+
+.dot{
+  border-radius: 20px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+
+}
+#dot-red{
+background-color: #ff5f56;
+}
+#dot-yellow{
+  background-color: #ffbd2e;
+}
+#dot-green{
+  background-color: #27c93f;
+}
+@media(max-width:768px){
+.image-container input{
+  width: 230px;
+  margin-left: 60px;
+}
+.caption{
+  padding: 6px;
+}
+}
+

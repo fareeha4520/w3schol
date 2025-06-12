@@ -54,6 +54,7 @@ margin-bottom: 30px;
     background-color: #04aa6d;
     pointer:cursor;
 }
+
 /* Large screens (1440px and up) */
 @media screen and (min-width: 1440px) {
   .learn-image img {

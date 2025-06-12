@@ -91,12 +91,12 @@ const LanguageBoxes = () => {
     </div>
    </div>  
            <div className='course-container'>
-            <div className='course-item' id='nodejs'>Excel</div>
-            <div className='course-item' id='json'>DSA-Data Structures and Algorithms</div>
-            <div className='course-item' id='react'>Machine Learning</div>
-            <div className='course-item' id='r'>Artificial Intelligence</div>
-            <div className='course-item' id='koltin'>Introduction to programming</div>
-            <div className='course-item' id='nodejs'>Bash</div>
+            <div className='course-item' id='excel'>Excel</div>
+            <div className='course-item' id='DSA'>DSA-Data Structures and Algorithms</div>
+            <div className='course-item' id='ML'>Machine Learning</div>
+            <div className='course-item' id='AI'>Artificial Intelligence</div>
+            <div className='course-item' id='INTRO'>Introduction to programming</div>
+            <div className='course-item' id='bash'>Bash</div>
            </div>
    
    </div>

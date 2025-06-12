@@ -3,8 +3,8 @@ import React from 'react'
 const Features = () => {
   return (
     <>
-   <div className='caption'>
-    <div className='caption-heading'>
+   <div className='captions'>
+    <div className='captions-heading'>
       <h1>Become a Plus User</h1>
        <h2>And unlock powerful features:</h2>
    </div>

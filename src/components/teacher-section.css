@@ -1,6 +1,7 @@
 .teacher-container{
     background-color: #282A35;
     display: flex;
+    
     justify-content: center;
     align-items: center;
     gap: 20px;

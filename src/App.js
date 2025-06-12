@@ -21,6 +21,8 @@ import './components/quiz.css';
 import './components/tempelate.css';
 import './components/certified.css';
 import './components/learn.css';
+import 'slick-carousel/slick/slick.css';
+import Slider from 'react-slick';
 
 
 import Header from './components/header';
@@ -44,6 +46,7 @@ import Quiz from './components/quiz';
 import Tempelate from './components/tempelate';
 import Certified from './components/certified';
 import LearningSection from './components/learn';
+import Carousel from './components/addCourasel';
 
 
 function App() {

@@ -1,4 +1,5 @@
 import React from 'react'
+import Carousel from './addCourasel';
 
 const LearningSection = () => {
   return (
@@ -9,12 +10,11 @@ const LearningSection = () => {
        <h2>Code snippets for HTML, CSS and JavaScript</h2>
        <h4>For Example, how to create a slideshow:</h4>
    </div>   
-<div className='learn-image'>
-    <img src='https://www.w3schools.com/howto/img_nature_wide.jpg'></img>
+<div >
+  <Carousel/>
     <div className='how-to'></div>
     <button className='how-to-btn'>Learn How To</button>
    </div>
-   
 
    </div>
 

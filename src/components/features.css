@@ -1,14 +1,14 @@
-.caption{
+.captions{
     background-color: #282A35;
     text-align: center;
     color: white;
     padding: 20px;
 }
-.caption-heading h1{
+.captions-heading h1{
     font-weight: 700;
     font-size: 65px;
 }
-.caption-heading h2{
+.captions-heading h2{
 color: #FFC0C7;
 font-size: 25px;
 font-weight: 700;
