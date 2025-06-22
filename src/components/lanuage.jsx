@@ -4,6 +4,7 @@ import "./language.css";
 const Lanuage = () => {
   return (
     <>
+    <div className="language-container">
       <div class="navbar">
         <a href="#html">HTML</a>
         <a href="#css">CSS</a>
@@ -19,6 +20,8 @@ const Lanuage = () => {
         <a href="bootstrap">BOOTSTRAP</a>
         <a href="#react">REACT</a>
         <a href="mysql">MYSQL</a>
+         <a href="query">JQUERY</a>
+      </div>
       </div>
     </>
   );

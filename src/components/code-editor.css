@@ -48,6 +48,7 @@ background-color: #04aa6d;
     background-color:#FFF4A3 ;
     width: 400px;
     color: black;
+    margin-bottom: 60px;
 }
 .circle{
   background-color: #04aa6d;
@@ -91,6 +92,7 @@ background-color: #04aa6d;
   }
   #color{
     width: 60%;
+    
   }
 
   .edit-video img {

@@ -2,6 +2,9 @@
      background-color:#282A35;
     text-align: center;
     padding: 20px;
+     max-width: 1200px;   /* ✅ controls container width */
+  margin: 0 auto;       /* ✅ centers the container */
+  border-radius: 12px;
 }
 .quizing h1{
      font-weight: 700;
@@ -24,7 +27,8 @@ margin-bottom: 40px;
 gap:8%;
 }
 .exercise-boxes{
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     height: 160px;
     background-color: #04aa6d;
     border-radius: 8px;

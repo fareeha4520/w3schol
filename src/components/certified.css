@@ -2,6 +2,9 @@
      background-color:#282A35;
     text-align: left;
     padding: 20px;
+     max-width: 1200px;   /* ✅ keeps content readable */
+  margin: 0 auto;       /* ✅ centers container */
+  border-radius: 12px
     
 }
 .certification h1{
@@ -13,7 +16,7 @@
     margin-left: 30px;
     margin-top: 100px;
     margin-bottom: 100px;
-  
+    
 }
 #move{
     font-size: 55px;

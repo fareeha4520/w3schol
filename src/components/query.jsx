@@ -22,7 +22,7 @@ const Query = () => {
 
         <div className="example">
           <h2>SQL Example:</h2>
-          <div className="example-code">
+          <div className="example-code-query">
             <span className='keyword'>SELECT </span>*
             <span className='keyword'> FROM </span>customers
             <br></br> 

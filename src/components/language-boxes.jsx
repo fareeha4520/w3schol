@@ -3,6 +3,7 @@ import React from 'react'
 const LanguageBoxes = () => {
   return (
     <>
+    <div className='language-box-container'>
     <div className='item'>
         <div className='card' id="php-box">
             <h3>PHP</h3>
@@ -41,7 +42,7 @@ const LanguageBoxes = () => {
              <h3>C#</h3>
      </div>
 
-
+<div className='grid-box-container'>
    <div className='container'>
     <div className='grid'>
         <div className='grid-item' id='r'>R</div>
@@ -89,7 +90,8 @@ const LanguageBoxes = () => {
         <div className='grid-item' id='json'>Spaces</div>
         <div className='grid-item' id='koltin'>Typing Speed</div> 
     </div>
-   </div>  
+    </div>
+   <div className='courses-offer-container'>
            <div className='course-container'>
             <div className='course-item' id='excel'>Excel</div>
             <div className='course-item' id='DSA'>DSA-Data Structures and Algorithms</div>
@@ -98,7 +100,9 @@ const LanguageBoxes = () => {
             <div className='course-item' id='INTRO'>Introduction to programming</div>
             <div className='course-item' id='bash'>Bash</div>
            </div>
-   
+           </div>
+   </div>
+   </div>
    </div>
     </>
   );

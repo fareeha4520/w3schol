@@ -11,10 +11,10 @@ h1{
 color:#f1f1f1;
 margin: 0 0 10px 0;
 font-size: 65px;
-margin-top: 15%;
+margin-top:100px;
 font-weight: bolder;
 text-align: center;
-margin-bottom: 15px;
+margin-bottom: 25px;
 
 
 }
@@ -24,7 +24,7 @@ margin-bottom: 15px;
   font-weight: bold;
   color: #FFF4A3;
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 45px;
 
 }
 .search-container{
@@ -33,34 +33,35 @@ margin-bottom: 15px;
   
 }
 .search-container {
-  max-width: 450px;
+  max-width: 490px;
   margin: 0 auto;
   position: relative;
+  margin-bottom: 30px;
 }
 .search-container input{
   width: 100%;
-  padding: 10px 10px 10px 10px;
+  padding:  13px 20px;
   font-size: 16px;
   border:none;
   border-radius: 30px;
-  font-weight: 600;
+  font-weight: 400;
 }
 .click{
   position:absolute;
   right: 0;
   top: 0;
   height: 100%;
-  width: 50px;
+  width: 80px;
   background: #04AA6D;
   color: #282A35;
   cursor: pointer;
   font-size: 18px;
   border: none;
-  border-radius: 0 20px 20px 0;
+  border-radius: 0 30px 30px 0;
 }
 h2{
   color: white;
-  margin-bottom: 10%;
+  margin-bottom: 94px;
   text-decoration: underline;
   text-align: center;
   font-weight: bold;

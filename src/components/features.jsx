@@ -10,17 +10,17 @@ const Features = () => {
    </div>
 <div className='features-style'>
     <ul>
-        <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23888888' />
+        <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23bbddce' />
          Browse W3Schools<strong>without ads</strong></li>
-         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23888888' />
+         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23bbddce' />
          Build and host Websites</li>
-         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23888888' />
+         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23bbddce' />
          Unlimited challenges</li>
-         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23888888' />
+         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23bbddce' />
          Unlimited practice tests</li>
-         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23888888' />
+         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23bbddce' />
          Get extra credits</li>
-         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23888888' />
+         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23bbddce' />
          Priority support</li>
     </ul>
 </div>

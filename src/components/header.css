@@ -1,9 +1,17 @@
 .body {
       margin: 0;
       font-family: "Segoe UI", sans-serif;
+      height: 25px;
+    }
+    .header-container{
+       max-width: 1300px;
+       width: 100%;
+  margin: 0 auto;
+  padding: 0 ;
+  
     }
 
-    .top-header {
+    .top-header{
       background-color: white;
       overflow: hidden;
       display: flex;
@@ -11,57 +19,100 @@
      /* position: fixed;*/
       width: 100%;
       z-index: 1000;
-      justify-content: space-between;
+      gap:20px;
     }
     .top-header a.logo {
-      color: #04AA6D;
+    
       font-size: 24px;
       font-weight: bold;
       text-decoration: none;
-      padding: 14px 22px;
+      padding: 2px ;
     }
   .logo img{
     height: 28px;
     margin-left: 20px;
-    fill: #04AA6D;
+    
   }
 
     .top-header a {
       color: black;
       text-decoration: none;
-      padding: 14px 20px;
+      padding: 18px 5px;
       display: inline-block;
+      gap: 30px;
+      
     }
-
+    .top-header img#gap {
+  margin-right: 30px;
+}
+.top-header img {
+  margin-right: 0;
+  margin-left: 20px;
+}
+.top-header .button img {
+margin-left: 10px;
+}
     .top-header a:hover {
       background-color: #04AA6D;
             color: white;
+            text-decoration: none;
     }
+    .top-header a.logo:hover {
+  background-color: transparent;
+  color: inherit;
+}
+  
+    
         /* Right Section */
     .top-header .right {
       display: flex;
       align-items: center;
       flex-wrap: wrap;
+  
     }
-
+.search-box{
+  position: relative;
+  }
+   
     .top-header .search-box input[type="text"] {
       padding: 6px 10px;
       margin: 8px;
-      border:none;
-      border-radius: 8px;
+      border:1px solid gray;
+      border-radius: 12px;
+      margin-right: 30px;
+      width: 160px;
+       
     }
+   
 
     .top-header .button {
       background-color: #04AA6D;
       color: white;
       border: none;
-      border-radius: 4px;
+      border-radius: 8px;
       padding: 8px 14px;
       margin: 6px 2px;
       cursor: pointer;
       font-size: 14px;
+      margin-left: 20px;
+      
     }
+    #plus{
+      margin-right: 30px;
+      margin-left: 25px;
+    }
+    .srch-icon{
+      position:absolute;
+      display: flex;
+      right: 73%;
+    top: 14px;
+  
+   color: #282A35;
+   font-size: 18px;
+   border: none;
 
+}
+  
     /* Tablets */
 @media screen and (max-width: 1024px) {
   .top-header {

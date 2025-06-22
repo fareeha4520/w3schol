@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='footer'>
     <div className='topnav'>
 <div className='logos'>
-  <img src='https://api.iconify.design/simple-icons:w3schools.svg?color=%23888888'></img>
+  <img src='https://api.iconify.design/simple-icons:w3schools.svg?color=%23ffffff'></img>
 </div>
   <a href='#' className='menu-item'>PLUS</a>
     <a href='#' className='menu-item'>SPACES</a>
@@ -87,11 +87,11 @@ const Footer = () => {
   </div>
 </div>
 <div className='footer-icons'>
-  <img  className='footer-image' src='https://api.iconify.design/tdesign:logo-youtube-filled.svg?color=%23888888'></img>
-  <img  className='footer-image' src='https://api.iconify.design/mdi:linkedin.svg?color=%23888888'></img>
-  <img  className='footer-image' src='https://api.iconify.design/akar-icons:discord-fill.svg?color=%23888888'></img>
-  <img  className='footer-image' src='https://api.iconify.design/mdi:facebook-box.svg?color=%23888888'></img>
-   <img className='footer-image' src='https://api.iconify.design/lucide:instagram.svg?color=%23888888'></img>
+  <img  className='footer-image' src='https://api.iconify.design/tdesign:logo-youtube-filled.svg?color=%23ffffff'></img>
+  <img  className='footer-image' src='https://api.iconify.design/mdi:linkedin.svg?color=%23ffffff'></img>
+  <img  className='footer-image' src='https://api.iconify.design/akar-icons:discord-fill.svg?color=%23ffffff'></img>
+  <img  className='footer-image' src='https://api.iconify.design/mdi:facebook-box.svg?color=%23ffffff'></img>
+   <img className='footer-image' src='https://api.iconify.design/lucide:instagram.svg?color=%23ffffff'></img>
   <span className='footer-span'>FORUM</span>
   <span className='footer-span'>ABOUT</span>
   <span className='footer-span'>ACADEMY</span>

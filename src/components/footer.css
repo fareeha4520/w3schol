@@ -5,6 +5,8 @@ body{
 .footer{
     background-color: #282A35;
     text-align: center;
+    max-width: 1600px;     /* ✅ contains content within a readable width */
+  margin: 0 auto;
 }
 .topnav{
     color:#ddd;
@@ -43,11 +45,12 @@ display: flex;
 }
 
 .tutorial-container {
-  display: flex;
+ display: flex;
   justify-content: space-between;
   max-width: 100%;
   margin: auto;
   margin-left: 10%;
+ 
 }
 
 .tutorial-column {

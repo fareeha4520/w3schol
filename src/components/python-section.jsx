@@ -22,7 +22,7 @@ const Python = () => {
 
         <div className="example">
           <h2>Python Example:</h2>
-          <div className="example-code">
+          <div className="example-code-python">
             <span className='condition'>if </span>
             <span className='number'>5 </span>&gt; <span className='number' >2 </span>:
             <br></br>

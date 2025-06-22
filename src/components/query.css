@@ -64,7 +64,7 @@
   color: black;
   text-decoration: none;
 }
-.example-code {
+.example-code-query {
   background-color: #ffffff;
   padding: 15px;
   border-left: 4px solid #04aa6d;
@@ -73,7 +73,7 @@
   margin-bottom: 20px;
   font-size: 15px;
   text-align: left;
-  height:150px;
+  height: 150px;
 }
 .keyword{
     color: rgb(56, 56, 235);

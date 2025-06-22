@@ -9,15 +9,15 @@ const TeacherSection = () => {
        <h2>Streamline your teaching:</h2>
 <div className='teacher-style'>
     <ul>
-        <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23888888' />
+        <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23bbddce' />
          Manage your classroom</li>
-         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23888888' />
+         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23bbddce' />
          Ready-to-use learning materials</li>
-         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23888888' />
+         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23bbddce' />
          Customize study plans</li>
-         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23888888' />
+         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23bbddce' />
          Track student progress</li>
-         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23888888' />
+         <li><img src='https://api.iconify.design/mdi:checkbox-marked-circle.svg?color=%23bbddce' />
          Interactive coding chalanges</li>
     </ul>
     <div className='learning-btn'>
