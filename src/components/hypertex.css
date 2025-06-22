@@ -1,5 +1,6 @@
 body{
   background-color:#D9EEE1;
+  
 }
 .html-container {
   max-width: 100%;
@@ -21,7 +22,7 @@ body{
   font-weight: bold;
   color: black;
   margin-bottom: 10px;
-  
+  margin-top: 10px;
 }
 .html p.subtitle {
   font-size: 20px;
